@@ -273,8 +273,8 @@ def get_account():
 
 if __name__ == '__main__':
     ##########
-    wait_time = random.randrange(0,90) * math.pi * 20
-    time.sleep(wait_time)
+#     wait_time = random.randrange(0,90) * math.pi * 20
+#     time.sleep(wait_time)
     ##########
     uid, psw = get_account()
     # print(uid, psw)
